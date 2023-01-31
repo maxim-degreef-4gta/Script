@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <header>
+    <h1>Welkom 4Gta</h1>
+
+<h3>Hoe gaat het</h3></header>
+<section id="intro">
+    <h2>Ondertitel</h2> 
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, amet? Quo, necessitatibus. Repudiandae sint quibusdam repellat enim veniam velit iure, veritatis vero, dolore accusamus mollitia dolorem error perferendis reiciendis illo?</p>
+</section>
+<section id="lijstjes">
+    <ul>
+        <li>Luisteren</li><li>Opletten</li><li>Studeren</li>
+    </ul>
+    <h2> Dingen die niet mogen in een klaslokaal</h2>
+    <ul>
+        <li>roepen</li><li>eten</li><li>mr Vander Cruyssen irriteren</li>
+    </ul>
+</section>
+</main>
+</body>
+    
+</html>
+
+
+
+
+
+
