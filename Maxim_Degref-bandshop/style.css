@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header {
+    background-color: hwb(177 1% 0%);
+    padding: 3px;
+}
+header nav a {
+    color: rgb(0, 0, 0);
+    padding: 14px 20px 14px 20px;
+    font-size: medium;
+    text-decoration: none;
+}
+header nav a:hover {
+    border-bottom: 2px solid rgb(11, 195, 241);
+}
+header nav li {
+    display: inline;
+    border-radius: 10%;
+    border: rgb(13, 223, 238);
+}
+header img {
+    width: 70px;
+    margin-left: 20px;
+}
+
+header input {
+    position: relative;
+    margin-right: 20px;
+    padding: 4px 26px;
+    border-radius: 20px;
+    width: 150px;
+    border: 0;
+}
+.zoekbar i {
+    position: absolute;
+    color: hsl(0, 98%, 49%);
+    font-size: 15px;
+    z-index: 2;
+    left: 1103px;
+    top: 19px;
+}
+
+img {
+    width: 30%;
+}
