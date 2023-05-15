@@ -54,3 +54,11 @@ header input {
 img {
     width: 30%;
 }
+.videoframe{
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 100vh;
+}
+video{
+    width: 100%;
+}
