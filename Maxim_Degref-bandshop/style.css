@@ -12,7 +12,7 @@ body {
     padding: 10px;
 }
 header {
-    background-color: hwb(177 1% 0%);
+    background-color: hwb(170 25% 73%);
     padding: 3px;
 }
 header nav a {
@@ -27,7 +27,7 @@ header nav a:hover {
 header nav li {
     display: inline;
     border-radius: 10%;
-    border: rgb(13, 223, 238);
+    border: rgb(159, 160, 160);
 }
 header img {
     width: 70px;
@@ -52,7 +52,7 @@ header input {
 }
 
 img {
-    width: 30%;
+    width: 100%;
 }
 .videoframe{
     overflow: hidden;
@@ -61,4 +61,54 @@ img {
 }
 video{
     width: 100%;
+}
+h6{
+font-size: 3rem;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 42%;
+    left: 25%;
+}
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #925454;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #777575;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
