@@ -2,33 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
+
 header {
     background-color: hwb(170 25% 73%);
     padding: 3px;
 }
+
 header nav a {
     color: rgb(0, 0, 0);
     padding: 14px 20px 14px 20px;
     font-size: medium;
     text-decoration: none;
 }
+
 header nav a:hover {
     border-bottom: 2px solid rgb(11, 195, 241);
 }
+
 header nav li {
     display: inline;
     border-radius: 10%;
     border: rgb(159, 160, 160);
 }
+
 header img {
     width: 70px;
     margin-left: 20px;
@@ -42,6 +49,7 @@ header input {
     width: 150px;
     border: 0;
 }
+
 .zoekbar i {
     position: absolute;
     color: hsl(0, 98%, 49%);
@@ -54,17 +62,21 @@ header input {
 img {
     width: 100%;
 }
-.videoframe{
+
+.videoframe {
     overflow: hidden;
     margin-bottom: 3rem;
     max-height: 100vh;
 }
-video{
+
+video {
     width: 100%;
 }
-h6{
-font-size: 3rem;
+
+h6 {
+    font-size: 3rem;
 }
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -84,6 +96,7 @@ figcaption {
     bottom: 42%;
     left: 25%;
 }
+
 footer {
     padding: 5vw 10vw;
     background-color: #111;
