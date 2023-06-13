@@ -1,0 +1,50 @@
+:root {
+    --bgc-01: hsl(0, 0%, 95%);
+    --bgc-02: hsl(0, 0%, 36%);
+    --txt-01: hsl(0, 0%, 90%);
+    --bc-01: hsl(180, 1%, 32%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+header {
+    background-color: var(--bgc-02);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    padding: 1rem;
+}
+header img {
+    width: 70px;
+    margin-left: 20px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav li {
+    padding: 10px;
+}
+header nav li:hover {
+    background-color: var(--bc-01);
+}
+header nav a {
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
